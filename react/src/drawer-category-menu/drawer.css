@@ -1,0 +1,159 @@
+.buttonActionDrawer {
+  width: 52px;
+  height: 54px;
+  border-radius: 5px;
+  background: #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.openIconContainer {
+  display: none;
+}
+
+
+.drawerHeader .buttonActionDrawer {
+  margin-left:10px;
+}
+
+.childrenContainer {
+  flex-direction: column;
+}
+
+.containerDepartmentsMobile{ 
+  display:flex;
+  flex-direction:column;
+  padding-left:40px;
+  margin-top:20px;
+  width:100%;
+}
+
+.itemDeparmentMobile{
+  display:flex;
+  margin-bottom:25px;
+  align-items:center;
+  text-decoration:none;
+}
+
+.imgDepartmentMobile{
+  max-width:35px;
+  max-height:35px;
+
+}
+
+.titleDepartmentMobile{
+  margin-left:16px;
+  font-size:16px;
+  color:#59595B;
+  width:300px;
+}
+
+.containerArrowMobile{
+  width:80%;
+  display:flex;
+  justify-content:flex-end;
+  padding-right: 26px;
+  color:#59595B;
+  font-weight:normal;
+}
+
+.containerLinksAditionalMobile{
+  height:50%;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:flex-end;
+  margin-top:60px;
+}
+
+.titleServices{
+  width:100%;
+  display:flex;
+  justify-content:flex-start;
+  margin-bottom:30px;
+  color:#59595B;
+  font-weight:bold;
+  padding-left:40px;
+  font-size:16px;
+}
+
+.itemService{
+  width:100%;
+  display:flex;
+  justify-content:flex-start;
+  margin-bottom:30px;
+  color:#59595B;
+  padding-left:40px;
+  font-size:16px;
+  align-items:center;
+  text-decoration:none;
+}
+
+.titleService{
+  margin-left:16px;
+}
+
+.containerCategories{
+  padding-left:40px;
+  margin-top:40px;
+}
+
+.returnToDepartment{
+  color:#59595B;
+  font-size:15px;
+  display:flex;
+  align-items:center;
+  margin-bottom:35px;
+}
+
+.textReturn{
+  margin-left:20px;
+  font-weight:bold;
+  font-size:15px;
+}
+
+.itemCategoryMobile{
+  display:flex;
+  margin-bottom:25px;
+  align-items:center;
+  text-decoration:none;
+  color:#59595B;
+  font-size:14px;
+}
+
+.titleShowAll{
+  margin-top:50px;
+  color: #59595B;
+  font-size:15px;
+  text-decoration:none;
+  margin-left:45px;
+  font-weight:bold;
+}
+
+@media (max-width:600px) { 
+  .drawer{
+      width:380px !important;
+      background-color: #FFFFFF;
+      border-bottom-right-radius: 15px;
+      border-top-right-radius: 15px;
+  }
+
+  .drawerHeader{
+    padding:10px;
+  }
+
+  .buttonActionDrawer{
+    margin-top:12px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile-sticky)
+  .buttonActionDrawer{
+    margin-top:0px;
+  }
+ 
+  .closeIcon{
+    color:black;
+  }
+  
+}

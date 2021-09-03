@@ -1,0 +1,261 @@
+
+.drawerCustom { 
+    position:fixed;
+    left:-380px;
+    min-width:300px;
+    background-color:#FFFFFF;
+    top:0;
+    height:100vh;
+    z-index:100;
+    transition: all ease 0.5s;
+    display:flex;
+    border-top-right-radius:13px;
+    border-bottom-right-radius:13px;
+    overflow:hidden;
+
+}
+
+.drawerCustom.active{
+    left:0;
+
+}
+
+.imageDrawer{
+    
+}
+
+
+.drawerCustomOverlay{
+    position:fixed;
+    width:100vw;
+    height:100vh;background:rgba(0,0,0,0.5);
+    z-index:99;
+    top:0;
+}
+
+.titleButtonOpen{
+    margin-left:5px;
+}
+
+.menuContainer{
+    width:380px;
+    height:100%;
+    background-color:#FFFFFF;
+}
+
+.menuContainerScroll{
+    width:380px;
+    height:100%;
+    background-color:#FFFFFF;
+    overflow:auto;
+    padding:20px 0;
+}
+
+.menuContainerCategory{
+    width:300px;
+    height:100%;
+    background-color:#FFFFFF;
+    padding:20px 0;
+
+}
+
+.containerDepartment{
+    padding:20px 0;
+   
+}
+
+.containerItemsDrawer{
+    height: calc(100vh - 95px);
+    overflow: auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.containerItemsDrawer::-webkit-scrollbar {
+    width:8px;
+    background-color:#DFDFDF;
+    border-radius:5px 5px 5px 5px;
+}
+
+.itemDepartment{
+    padding:5px;
+    padding-left:34px;
+    height:50px;
+    text-decoration:none;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    color:#59595B;
+    font-size:16px
+}
+
+.iconDepartment{
+    width:30px;
+    height:30px;
+    margin-right:20px;  
+}
+
+.titleDepartment{
+    width:380px;
+}
+
+.containerArrow{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 20px;
+}
+
+.icoDeparmentActive svg path{
+    fill: #ffffff;
+}
+
+.headerCategories{
+    width:100%;
+    height:53px;
+    background-color:#D5752D;
+    padding-left:25px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.containerLogoDrawer{
+    width:110px;
+    display:flex;
+    align-items: center;
+}
+
+.closeDrawer{
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding-right:20px;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+.containerCategoryOptions{
+    margin-top:20px;
+
+}
+
+.itemCategory{
+    padding:5px;
+    padding-left:34px;
+    height:50px;
+    text-decoration:none;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    color:#59595B;
+    font-size:14px;
+}
+
+.rowMenu{
+    background-color:#F0F0F0;
+    display:flex;
+    height:50px;
+    align-items:center;
+}
+
+.buttonOpenDrawer{
+    width:112px;
+    height:50px;
+    background-color:#D0D0D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:16px;
+    color:#59595B;
+    font-weight:700;
+    cursor:pointer;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.itemsDrawer{
+    padding:0px 20px 0px 20px;
+    display:flex;
+}
+
+.itemPrincipal{
+    padding:0px 15px 0px 15px;
+    height:100%;
+    cursor:pointer;
+    color: #808080;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.containerAditionalInformation{
+    display:flex;
+    justify-content: flex-end;
+    width:50%;
+    padding:15px 0px 15px 0px;
+    border-left:2px solid #ffffff;
+}
+
+
+.itemAditionalInformation{
+    padding:0px 20px 0px 20px;
+    height:100%;
+    cursor:pointer;
+    color: #808080;
+    font-size:16px;
+    text-decoration:none;  
+}
+
+.itemAditionalInformation:last-child{
+    color:#00339D;
+    font-weight:bold;
+}
+
+.containerItemsExtra{
+    
+    flex-direction:column;
+    align-items:flex-start;
+    padding-left:35px;
+    justify-content:flex-end;
+    
+}
+
+.headerExtras{
+    font-size:16px;
+    color:#59595B;
+    font-weight:bold;
+    margin-bottom:28px;
+    color:#59595B;
+}
+
+.containerItemDepartment{
+    display:flex;
+    align-items:center;
+    font-size:16px;
+    cursor:pointer;
+    color:#59595B;
+    text-decoration:none;
+    margin-bottom: 20px;  
+}
+
+.iconDepartment{
+    width:30px;
+    height:30px;
+    margin-right:20px;  
+}
+
+.itemTitleExtra{
+    margin-left: 0px;
+    
+}
+
+.initialRowMenu{
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+

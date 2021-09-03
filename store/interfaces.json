@@ -1,0 +1,15 @@
+{
+  "hello-react": {
+    "component": "HelloWorld"
+  },
+  "menu-react": {
+    "component": "MenuDesktop"
+  },
+  "gif": {
+    "component": "Gif"
+  },
+  "category-menu-drawer": {
+    "component": "DrawerCategoryMenu",
+    "composition": "children"
+  }
+}
